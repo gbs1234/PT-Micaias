@@ -1,0 +1,248 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage{geometry}
+\geometry{top=2cm, bottom=2cm, left=2.5cm, right=2.5cm}
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage{setspace}
+\onehalfspacing
+\usepackage{xcolor}
+\usepackage{colortbl}
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{hyperref}
+
+% Definição de Cores
+\definecolor{primary}{RGB}{20, 50, 90}
+\definecolor{secondary}{RGB}{70, 100, 140}
+\definecolor{lightgrey}{RGB}{245, 247, 250}
+\definecolor{darkgrey}{RGB}{50, 50, 50}
+
+% Cabeçalho e Rodapé
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\textcolor{secondary}{\small Plano de Trabalho -- Atendimento Especial}}
+\lhead{\textcolor{secondary}{\small Computação Aplicada à Física}}
+\rfoot{\textcolor{secondary}{\small Página \thepage}}
+\renewcommand{\headrulewidth}{0.5pt}
+\renewcommand{\footrulewidth}{0.5pt}
+
+% Estilo de Seções
+\titleformat{\section}
+  {\color{primary}\normalfont\large\bfseries}
+  {\thesection.}{0.5em}{}[\titlerule]
+
+\titleformat{\subsection}
+  {\color{secondary}\normalfont\bfseries}
+  {\thesubsection}{0.5em}{}
+
+\setlist[itemize]{leftmargin=*, topsep=2pt, itemsep=2pt, parsep=0pt}
+\setlist[enumerate]{leftmargin=*, topsep=2pt, itemsep=2pt, parsep=0pt}
+
+\begin{document}
+
+\begin{center}
+    {\LARGE \bfseries \color{primary} PLANO DE TRABALHO PARA ATENDIMENTO ESPECIAL}\\[1.5em]
+\end{center}
+
+\noindent
+\begin{tabularx}{\textwidth}{@{} X X @{}}
+\textbf{Discente:} Micaías Silva de Oliveira & \textbf{R.G.A.:} 202611727004 \\[0.8em]
+\textbf{Disciplina:} Computação Aplicada à Física & \textbf{Carga horária:} 64 horas \\[0.8em]
+\textbf{Docente:} George Barbosa da Silva %& \textbf{Período:} setembro a dezembro de 2026 \\
+\end{tabularx}
+
+\vspace{0.8em}
+
+\noindent \textbf{Modalidade de atendimento:} Atendimento especial, atividades orientadas e desenvolvimento integrado com os trabalhos da turma regular.
+
+\vspace{1em}
+
+\section{Objetivo do plano de trabalho}
+O presente Plano de Trabalho tem como objetivo assegurar ao discente o cumprimento das atividades acadêmicas da disciplina Computação Aplicada à Física, considerando a concessão de atendimento especial em razão da impossibilidade de participação nas aulas presenciais realizadas às sextas-feiras e aos sábados.
+
+O atendimento será realizado por meio de encontros presenciais ou síncronos, utilizando a plataforma Google Meet, complementados por atividades orientadas, estudos individuais e desenvolvimento de atividades computacionais.
+
+O discente seguirá os 12 roteiros de atividades elaborados pelo docente, correspondentes às etapas do projeto desenvolvido pela turma. Dessa forma, o atendimento especial não constituirá um percurso acadêmico independente, mas uma modalidade alternativa de acompanhamento das mesmas atividades previstas para os estudantes que frequentam regularmente as aulas.
+
+Os produtos desenvolvidos pelo discente --- códigos, notebooks, análises, dados, gráficos, relatórios e demais atividades --- serão integralizados aos trabalhos desenvolvidos pela turma regular, permitindo sua participação no projeto coletivo da disciplina.
+
+\section{Organização da carga horária}
+A carga horária total da disciplina corresponde a 64 horas, distribuídas da seguinte forma:
+
+\vspace{0.5em}
+\begin{center}
+\rowcolors{2}{lightgrey}{white}
+\begin{tabularx}{\textwidth}{X c}
+\hline
+\rowcolor{primary} \color{white}\textbf{Modalidade} & \color{white}\textbf{Carga horária} \\
+\hline
+Atendimento síncrono via Google Meet & 8 horas \\
+Atendimento presencial em horário  especial a combinar & 8 horas \\
+Desenvolvimento dos 12 roteiros e atividades orientadas & 16 horas \\
+Trabalho autônomo, integração das atividades e produto final & 32 horas \\
+\hline
+\textbf{Total} & \textbf{64 horas} \\
+\hline
+\end{tabularx}
+\end{center}
+\vspace{0.5em}
+
+Os 12 roteiros constituirão o eixo principal do acompanhamento acadêmico. Cada roteiro envolverá:
+\begin{itemize}
+    \item orientação do professor;
+    \item discussão dos conceitos físicos e computacionais envolvidos;
+    \item desenvolvimento de códigos;
+    \item realização de atividades práticas;
+    \item registro das atividades no repositório do projeto;
+    \item acompanhamento do progresso do discente.
+\end{itemize}
+
+\section{Forma de acompanhamento e avaliação}
+O discente será acompanhado continuamente durante a execução do plano de trabalho. A avaliação considerará, principalmente:
+\begin{itemize}
+    \item cumprimento dos 12 roteiros de atividades;
+    \item participação nos atendimentos;
+    \item realização das atividades computacionais propostas;
+    \item desenvolvimento progressivo dos códigos e notebooks;
+    \item organização e atualização do repositório GitHub;
+    \item qualidade das análises, gráficos e interpretações físicas;
+    \item cumprimento dos prazos estabelecidos;
+    \item integração das atividades desenvolvidas aos trabalhos realizados pela turma regular;
+    \item participação nas atividades coletivas relacionadas ao produto final da disciplina.
+\end{itemize}
+
+Os critérios de avaliação serão equivalentes aos adotados para os estudantes que frequentam regularmente a disciplina, respeitando-se apenas a modalidade diferenciada de acompanhamento.
+
+Quando necessário, o docente poderá realizar verificações individuais de aprendizagem, incluindo:
+\begin{itemize}
+    \item discussão oral sobre os códigos desenvolvidos;
+    \item apresentação dos resultados obtidos;
+    \item resolução de atividades computacionais;
+    \item explicação dos procedimentos utilizados pelo discente.
+\end{itemize}
+Essas verificações terão como finalidade assegurar que o estudante tenha efetivamente desenvolvido e compreendido as atividades realizadas.
+
+\section{Planejamento das atividades}
+Cada encontro poderá ter duração de aproximadamente uma ou duas horas, sendo complementado por atividades orientadas relacionadas ao roteiro correspondente.
+
+\vspace{0.5em}
+\begin{center}
+\small
+\rowcolors{2}{lightgrey}{white}
+\begin{tabularx}{\textwidth}{c c c X}
+\hline
+\rowcolor{primary} \color{white}\textbf{Roteiro} & \color{white}\textbf{Data} & \color{white}\textbf{Atividade} \\
+\hline
+1 & 09/09/2026   & Montagem do ambiente computacional e desenvolvimento do primeiro programa \\
+2 & 16/09/2026   & Git, GitHub, ambiente virtual e organização do projeto \\
+3 & 23/09/2026   & Primeiros modelos físicos, funções, arrays e gráficos \\
+4 & 30/09/2026   & Método de Euler e implementação numérica \\
+5 & 07/10/2026   & Queda de filtros de café: modelo físico ideal \\
+6 & 14/10/2026   & Análise de vídeos/dados utilizando o Tracker \\
+7 & 21/10/2026   & Número de filtros e investigação da velocidade terminal \\
+8 & 28/10/2026   & Comparação entre filtros abertos e amassados \\
+9 & 04/11/2026   & Modelos, integração numérica e comparação quantitativa \\
+10 & 11/11/2026  & Preparação dos dados para Machine Learning \\
+11 & 18/11/2026  & KNN e classificação dos dados experimentais \\
+12 & 25/11/2026  & Comunicação científica, organização dos resultados e produto final \\
+\hline
+\end{tabularx}
+\end{center}
+\vspace{0.5em}
+
+\section{Descrição dos roteiros}
+
+\subsection*{Roteiro 1 --- Montagem do ambiente computacional}
+Atividades relacionadas à preparação do ambiente de trabalho: utilização do WSL, terminal Linux, VS Code, Python, criação e organização inicial do projeto.\\
+\textbf{Produto esperado:} ambiente computacional funcionando e execução do primeiro programa.
+
+\subsection*{Roteiro 2 --- Git, GitHub e ambiente virtual}
+Atividades relacionadas à organização do desenvolvimento computacional: criação e utilização de ambiente virtual Python, Git, GitHub, organização de diretórios, commits e atualização do repositório.\\
+\textbf{Produto esperado:} repositório organizado e histórico inicial de versões.
+
+\subsection*{Roteiro 3 --- Primeiros modelos e gráficos}
+Introdução às ferramentas utilizadas na modelagem computacional: NumPy, funções, arrays, Matplotlib, representação gráfica de modelos físicos simples.\\
+\textbf{Produto esperado:} primeira simulação computacional e produção de gráficos.
+
+\subsection*{Roteiro 4 --- Método de Euler}
+Estudo e implementação do método numérico: equações diferenciais relacionadas ao movimento, discretização temporal, intervalo de tempo $\Delta t$, aproximação numérica, análise de erros.\\
+\textbf{Produto esperado:} implementação computacional simples do método de Euler.
+
+\subsection*{Roteiro 5 --- Queda de filtros: modelo ideal}
+Aplicação da modelagem computacional ao fenômeno investigado no projeto: segunda lei de Newton, gravidade, queda livre como aproximação inicial, simulação computacional.\\
+\textbf{Produto esperado:} simulação da queda dos filtros de café.
+
+\subsection*{Roteiro 6 --- Do vídeo aos dados}
+Análise do fenômeno experimental por meio de vídeos e/ou dados fornecidos pelo professor: utilização do Tracker, posição em função do tempo, velocidade, tabelas, gráficos, identificação da velocidade terminal.\\
+\textbf{Produto esperado:} conjunto de dados experimentais e estimativa da velocidade terminal.
+
+\subsection*{Roteiro 7 --- Número de filtros e velocidade terminal}
+Investigação da influência do número de filtros sobre o movimento: comparação entre uma, duas e três unidades, massa, velocidade terminal, análise das relações entre as variáveis.\\
+\textbf{Produto esperado:} tabelas e gráficos comparativos entre diferentes configurações.
+
+\subsection*{Roteiro 8 --- Filtros abertos e amassados}
+Investigação da influência da geometria e da forma: área efetiva, resistência do ar, comparação entre configurações, construção de uma nova interpretação/modelo.\\
+\textbf{Produto esperado:} comparação experimental entre filtros abertos e amassados.
+
+\subsection*{Roteiro 9 --- Modelos e comparação quantitativa}
+Integração dos conhecimentos desenvolvidos anteriormente: método de Euler, integração numérica, comparação entre modelos e dados, erro, RMSE, ajuste simples de parâmetros.\\
+\textbf{Produto esperado:} comparação quantitativa entre dados experimentais e modelos físicos.
+
+\subsection*{Roteiro 10 --- Preparação dos dados para Machine Learning}
+Preparação dos dados obtidos ao longo do projeto: seleção de características, definição das classes, representação dos dados, divisão entre treinamento e teste.\\
+\textbf{Produto esperado:} conjunto de dados preparado para classificação.
+
+\subsection*{Roteiro 11 --- KNN e classificação}
+Introdução ao algoritmo KNN como ferramenta para investigação dos dados: conceito de vizinhos mais próximos, escolha do parâmetro $k$, classificação, acurácia, discussão de erros e limitações.\\
+\textbf{Produto esperado:} classificador aplicado às configurações experimentais investigadas.
+
+\subsection*{Roteiro 12 --- Comunicação científica}
+Organização e apresentação dos resultados: elaboração de figuras e tabelas, organização dos códigos, discussão dos resultados, elaboração de relatório, preparação da apresentação.\\
+\textbf{Produto esperado:} contribuição para o relatório e apresentação final desenvolvidos coletivamente pela turma.
+
+\section{Integração com a turma regular}
+As atividades desenvolvidas pelo discente em atendimento especial serão realizadas de forma articulada com as atividades da turma regular.
+
+Sempre que houver atividades coletivas, os resultados produzidos pelo estudante poderão ser incorporados ao desenvolvimento do projeto da turma, incluindo: códigos e notebooks, dados experimentais, gráficos, análises físicas, repositório GitHub, relatório final e apresentação dos resultados.
+
+O discente deverá manter seu trabalho organizado e documentado, de forma que suas contribuições possam ser acompanhadas e integradas ao trabalho coletivo.
+
+\section{Prazo final}
+Os 12 roteiros deverão ser desenvolvidos conforme o cronograma estabelecido.
+
+Após a conclusão dos encontros programados, o período compreendido entre 26 de novembro e 09 de dezembro de 2026 será destinado à:
+\begin{itemize}
+    \item conclusão de atividades pendentes;
+    \item correção e aperfeiçoamento dos códigos;
+    \item integração dos resultados com os trabalhos da turma;
+    \item organização do repositório;
+    \item finalização dos produtos da disciplina;
+    \item verificações finais de aprendizagem, quando necessárias.
+\end{itemize}
+
+ 
+
+\vspace{3em}
+
+\noindent Barra do Garças, 9 de setembro de 2026.
+
+\vspace{8em}
+
+\noindent
+\begin{minipage}[t]{0.45\textwidth}
+\centering
+\hrulefill\\
+Micaías Silva de Oliveira
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.45\textwidth}
+\centering
+\hrulefill\\
+Prof. Dr. George Barbosa da Silva
+\end{minipage}
+
+\end{document}
